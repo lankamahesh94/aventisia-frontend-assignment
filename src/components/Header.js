@@ -3,7 +3,7 @@ export default function Header() {
     <div className="flex justify-between items-center bg-gradient-to-r from-[#1E1B4B] to-[#4F46E5] px-6 py-3 text-white">
       
       
-      <h2 className="font-semibold text-lg">Workspace</h2>
+      <h2 className="font-semibold text-lg">Workspace</h2> 
 
     
       <input
