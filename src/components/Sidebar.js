@@ -9,7 +9,7 @@ export default function Sidebar() {
       className={`flex items-center gap-3 p-2 rounded cursor-pointer text-sm
         ${active === name ? "bg-indigo-100 text-indigo-600 font-medium" : "hover:bg-gray-200"}
       `}
-    >
+    > 
       <span>{icon}</span>
       <span>{name}</span>
     </div>
