@@ -1,6 +1,6 @@
 export default function Modal({ close }) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-30 flex justify-end">
+    <div className="fixed inset-0 bg-black bg-opacity-30 flex justify-end"> 
 
     
       <div className="w-[420px] h-full bg-white p-6 shadow-lg overflow-y-auto">
