@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Sidebar() {
-  const [active, setActive] = useState("Knowledge Base");
+  const [active, setActive] = useState("Knowledge Base"); 
 
   const menuItem = (name, icon) => (
     <div
