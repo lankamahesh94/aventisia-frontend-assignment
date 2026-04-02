@@ -4,7 +4,7 @@ export default function Card() {
       
       <div className="flex justify-between">
         <h3 className="font-semibold text-lg">Test</h3>
-        <button>⋮</button>
+        <button>⋮</button> 
       </div>
 
       <p className="text-gray-500 mt-2 text-sm">
