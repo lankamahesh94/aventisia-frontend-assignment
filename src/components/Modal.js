@@ -2,10 +2,10 @@ export default function Modal({ close }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-30 flex justify-end">
 
-      {/* RIGHT PANEL */}
+    
       <div className="w-[420px] h-full bg-white p-6 shadow-lg overflow-y-auto">
 
-        {/* HEADER */}
+        
         <div className="flex justify-between items-start mb-4">
           <div>
             <h2 className="text-lg font-semibold">
@@ -21,10 +21,10 @@ export default function Modal({ close }) {
           </button>
         </div>
 
-        {/* FORM */}
+      
         <div className="space-y-5">
 
-          {/* NAME */}
+          
           <div>
             <label className="block text-sm font-medium mb-1">
               Name (Cannot be edited later) <span className="text-red-500">*</span>
@@ -36,7 +36,7 @@ export default function Modal({ close }) {
             />
           </div>
 
-          {/* DESCRIPTION */}
+          
           <div>
             <label className="block text-sm font-medium mb-1">
               Description
@@ -47,7 +47,7 @@ export default function Modal({ close }) {
             />
           </div>
 
-          {/* VECTOR STORE */}
+    
           <div>
             <label className="block text-sm font-medium mb-1">
               Vector Store <span className="text-red-500">*</span>
@@ -57,7 +57,7 @@ export default function Modal({ close }) {
             </select>
           </div>
 
-          {/* LLM MODEL */}
+      
           <div>
             <label className="block text-sm font-medium mb-1">
               LLM Embedding Model <span className="text-red-500">*</span>
@@ -69,7 +69,7 @@ export default function Modal({ close }) {
 
         </div>
 
-        {/* FOOTER BUTTON */}
+      
         <div className="mt-8">
           <button className="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">
             Create
